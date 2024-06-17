@@ -80,3 +80,36 @@ header {
 .news-container li {
   padding: 10px 0;
 }
+
+.profile {
+  padding: 20px;
+}
+
+.profile h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.cv-publication {
+  padding: 20px;
+}
+
+.cv-publication h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.cv-publication h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.cv-publication ol {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.cv-publication li {
+  margin-bottom: 10px;
+}
