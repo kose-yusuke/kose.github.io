@@ -26,29 +26,22 @@ header {
 .header-right a {
   color: #fff;
   text-decoration: none;
-  font-size: 24px;
   margin-left: 20px;
 }
 
-.slider {
-  position: relative;
-  width: 100%;
-  height: 300px;
-  overflow: hidden;
+.intro {
+  text-align: center;
+  margin: 20px 0;
 }
 
-.slide {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  animation: slide-animation 15s infinite;
+.intro h1 {
+  font-size: 36px;
+  font-weight: bold;
 }
 
-@keyframes slide-animation {
-  0%, 20% { left: 0; }
-  25%, 45% { left: -100%; }
-  50%, 70% { left: -200%; }
-  75%, 100% { left: 0; }
+.intro p {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .about {
