@@ -53,14 +53,23 @@ header {
 .about {
   padding: 20px;
   background-color: #f4f4f4;
+  border-top: 4px solid #8cc63f;
 }
 
 .about h2 {
   font-size: 24px;
+  color: #8cc63f;
 }
 
 .news {
   padding: 20px;
+}
+
+.news h2 {
+  font-size: 24px;
+  color: #8cc63f;
+  border-bottom: 4px solid #8cc63f;
+  display: inline-block;
 }
 
 .news-container {
@@ -69,7 +78,12 @@ header {
   border: 1px solid #ddd;
 }
 
-.news-item {
+.news-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.news-container li {
   padding: 10px;
   border-bottom: 1px solid #ddd;
 }
