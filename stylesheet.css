@@ -133,3 +133,23 @@ header {
 .cv-publication li {
   margin-bottom: 10px;
 }
+
+
+.images {
+  padding: 20px;
+}
+
+.images h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-container img {
+  width: 30%;
+  height: auto;
+}
