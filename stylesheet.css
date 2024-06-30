@@ -157,6 +157,7 @@ header {
 }
 
 .image-container img {
-  width: auto;
-  height: auto;
+  width: 30%;
+  max-width: 200px;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 }
