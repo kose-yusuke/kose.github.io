@@ -172,20 +172,3 @@ a {
   width: 100%;
   max-width: 300px;
 }
-
-/* Media Queries for responsiveness */
-@media (max-width: 768px) {
-  .main-container {
-    flex-direction: column; /* Change to column direction */
-  }
-  .left-column, .right-column {
-    width: 100%;
-  }
-  .left-column img {
-    max-width: 100%;
-  }
-  .image-container img {
-    width: 100%;
-    max-width: 100%;
-  }
-}
