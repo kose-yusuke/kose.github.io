@@ -10,6 +10,11 @@ header {
   padding: 10px 0;
 }
 
+a {
+  text-decoration: none;
+  color: #bce2e8;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
