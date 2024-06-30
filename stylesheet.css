@@ -46,7 +46,7 @@ header {
   width: 100%;
   max-width: 200px;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 
 .right-column {
