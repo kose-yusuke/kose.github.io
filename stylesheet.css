@@ -168,3 +168,8 @@ a {
   max-width: 200px;
   border-radius: 0%;
 }
+
+.image-container img.landscape {
+  width: 100%;
+  max-width: 300px;
+}
