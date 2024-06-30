@@ -161,3 +161,13 @@ header {
   max-width: 200px;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 }
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .left-column, .right-column {
+    width: 100%;
+  }
+  .left-column img {
+    max-width: 100%;
+  }
+}
